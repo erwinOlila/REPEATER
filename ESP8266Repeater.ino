@@ -10,8 +10,8 @@ message is then pulblished to the database by MQTT.
 
 On the other hand, the repeater constantly subscribes the topic: "control" under
 MQTT protocol. When a control message is published from the client in the
-database, the message is automatically sent to the repeater. While, the repeater
-is connected with a client, the message is sent by "client[i].print" in the
+database, the message is automatically sent to the repeater. While the repeater
+is connected with a server, the message is sent by "client[i].print" in the
 process.
 **/
 
